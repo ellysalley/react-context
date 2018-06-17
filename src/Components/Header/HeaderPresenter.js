@@ -58,7 +58,7 @@ const HeaderPresenter = () => (
   <Header>
     <Flex full justifyBetween alignCenter>
       <FlexItem>
-        <h3>Antiredux</h3>
+        <h3>React Context</h3>
       </FlexItem>
       <FlexItem>
         <Flex>
@@ -70,10 +70,10 @@ const HeaderPresenter = () => (
           </HeaderIcon>
           <HeaderIcon>
             <FontAwesome name="bell" />
-            <Number>10
-              {/* <Store.Consumer>
+            <Number>
+              <Store.Consumer>
                 {store => getUnseen(store.notifications)}
-              </Store.Consumer> */}
+              </Store.Consumer>
             </Number>
           </HeaderIcon>
         </Flex>
